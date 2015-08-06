@@ -1,2 +1,4 @@
-# angular-rails-API-correct
-Learning best practices for development and deployment for Angular-Rails API stack, before deploying setupshop and pandaclone
+# angular-rails
+Experimenting with AngularJS in the Rails asset pipeline.
+
+Previous projects were done with complete separation of client and server code, treating rails server purley as API.
