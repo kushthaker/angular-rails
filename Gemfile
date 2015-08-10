@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem "bower-rails", "~> 0.10.0"
 
+gem "foreman"
+
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -62,6 +64,8 @@ end
 group :production do 
 	gem 'pg', 				'0.17.1'
 	gem 'rails_12factor', 	'0.0.2'
+  gem 'rails_stdout_logging'
+  gem 'rails_serve_static_assets'
 end
 
 
